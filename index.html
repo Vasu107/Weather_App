@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-app">
+        <form class="search-form">
+            <input class="city-input" type="text" placeholder="Enter City Name" />
+            <button class="search-btn" type="submit">
+                <i class="material-icons">search</i>
+            </button>
+        </form>
+        <div class="city-date-section">
+            <h2 class="city">Delhi</h2>
+            <p class="date">5 Jan 2026</p>
+        </div>
+        <div class="temperature-info">
+            <div class="description">
+                <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M440-760v-160h80v160h-80Zm266 110-55-55 112-115 56 57-113 113Zm54 210v-80h160v80H760ZM440-40v-160h80v160h-80ZM254-652 140-763l57-56 113 113-56 54Zm508 512L651-255l54-54 114 110-57 59ZM40-440v-80h160v80H40Zm157 300-56-57 112-112 29 27 29 28-114 114Zm113-170q-70-70-70-170t70-170q70-70 170-70t170 70q70 70 70 170t-70 170q-70 70-170 70t-170-70Zm283-57q47-47 47-113t-47-113q-47-47-113-47t-113 47q-47 47-47 113t47 113q47 47 113 47t113-47ZM480-480Z"/></svg></i>
+                <span class="description-text">Clear Day</span>
+            </div>
+            <div class="temp">20°C</div>
+        </div>
+        <div class="additional-info">
+            <div class="wind-info">
+                <i class="material-icons">air</i>
+                <div>
+                    <h3 class="wind-speed">4 KM/H</h3>
+                    <p class="wind-label">Wind</p>
+                </div>
+            </div>
+            <div class="humidity-info">
+                <i class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M491-200q12-1 20.5-9.5T520-230q0-14-9-22.5t-23-7.5q-41 3-87-22.5T343-375q-2-11-10.5-18t-19.5-7q-14 0-23 10.5t-6 24.5q17 91 80 130t127 35Zm-239.5 26Q160-268 160-408q0-100 79.5-217.5T480-880q161 137 240.5 254.5T800-408q0 140-91.5 234T480-80q-137 0-228.5-94ZM652-230.5Q720-301 720-408q0-73-60.5-165T480-774Q361-665 300.5-573T240-408q0 107 68 177.5T480-160q104 0 172-70.5ZM480-480Z"/></svg></i>
+
+                <div>
+                    <h3 class="humidity">45%</h3>
+                    <p class="humidity">humidity</p>
+                </div>
+            </div>
+            <div class="visibility-info">
+                <i class="material-icons">visibility</i>
+                <div>
+                    <h3 class="visibility-distance">4 KM/H</h3>
+                    <p class="visibility">Visibility</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
